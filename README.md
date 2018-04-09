@@ -38,7 +38,7 @@ TCP 22 - To login to the server/instance using SSH
 ### 3) Install Puppet Server
 
 SSH to the master instance and run the below commands to install the puppetserver.
-Puppet Server is the software that pushes configuration from the Puppet master to the other servers.
+Puppet Agents pull the configuration from the Puppet server located on the Puppet master.
 
 ```
 curl -O https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
