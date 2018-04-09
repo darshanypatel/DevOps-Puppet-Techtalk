@@ -41,10 +41,10 @@ SSH to the master instance and run the below commands to install the puppetserve
 Puppet Agents pull the configuration from the Puppet server located on the Puppet master.
 
 ```
-curl -O https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
-sudo dpkg -i puppetlabs-release-pc1-xenial.deb
-sudo apt-get update
-sudo apt-get install -y puppetserver
+wget https://apt.puppetlabs.com/puppet5-release-xenial.deb
+sudo dpkg -i puppet5-release-xenial.deb
+sudo apt update
+sudo apt install -y puppetserver
 ```
 
 ### 4) Configure memory allocation:
@@ -89,8 +89,8 @@ We need to add this line in the hosts file so that puppet name should be resolve
 Next run following commands to install and start the Puppet Agent:
 
 ```
-wget https://apt.puppetlabs.com/puppetlabs-release-pc1-xenial.deb
-sudo dpkg -i puppetlabs-release-pc1-xenial.deb
+wget https://apt.puppetlabs.com/puppet5-release-xenial.deb
+sudo dpkg -i puppet5-release-xenial.deb
 sudo apt-get update
 sudo apt-get install -y puppet-agent
 sudo systemctl enable puppet
