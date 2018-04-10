@@ -143,3 +143,11 @@ Now run the following command to verify if the puppet is installed correctly:
 `sudo /opt/puppetlabs/bin/puppet agent --test`
 
 If the `test.txt` file is created in the agent node then you have successfully installed Puppet in Master/Agent mode.
+
+## Learning Resources
+
+For learning the basics of Puppet, you can use a free online resource such as [this](https://www.example42.com/tutorials/PuppetTutorial/) website.
+
+For understanding a particular topic, refer the official [Puppet docs](https://puppet.com/docs).
+
+For using the modules already made by Puppet and Puppet community users, use the [Puppet Forge](https://forge.puppet.com) website.
