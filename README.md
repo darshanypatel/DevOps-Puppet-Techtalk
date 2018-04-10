@@ -16,7 +16,7 @@ Darshan Patel (dpatel12)
 
 [Screencast](https://youtu.be/F4h8WbmRxxo)
 
-[Report]()
+[Report](https://github.ncsu.edu/dpatel12/DevOps-Puppet-Techtalk/blob/master/Report.pdf)
 
 ## Puppet Setup Instructions
 
